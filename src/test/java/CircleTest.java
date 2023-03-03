@@ -6,8 +6,8 @@ import static org.junit.jupiter.api.Assertions.*;
 class CircleTest {
 
     @Test
-    @DisplayName("[1] test getBoundingBox")
-    void getBoundingBox() {
+    @DisplayName("[1] test getLowerBoundingBox")
+    void getLowerBoundingBox() {
         Point p = new Point(100,100);
         Circle c = new Circle(p, 10);
         p.translate(-10,0);
